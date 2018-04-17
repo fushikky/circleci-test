@@ -12,7 +12,7 @@ jobs:
             "https://hooks.slack.com/services/$SLACK_WEBHOOK_URL" \
             -H 'content-type: application/json' \
             -d '{
-              "text": "Build started!'"
+              "text": "Build started!"
             }'
 
       - run:
